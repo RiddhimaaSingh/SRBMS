@@ -1,7 +1,4 @@
 package entity;
-
-import java.util.Objects;
-
 public abstract class User {
     protected String userId;
     protected String name;

@@ -1,7 +1,4 @@
 package entity;
-
-import java.util.Objects;
-
 public class ResourceManager extends User {
 
     public ResourceManager(String userId, String name, String email, String password) {

@@ -1,6 +1,5 @@
 package entity;
 
-import java.util.Objects;
 public class Admin extends User {
 
     public Admin(String userId, String name, String email, String password) {
