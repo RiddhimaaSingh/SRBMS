@@ -1,12 +1,12 @@
-package repository;
+package com.srbms.repo;
+
+import com.srbms.entity.User;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import entity.User;
-
-public class UserRepository {
+public class UserRepo {
     private final Map<String, User> userMap = new HashMap<>(); // key = email or userId
 
     // Store a user
